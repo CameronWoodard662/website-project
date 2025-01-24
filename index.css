@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+#front-page-banner {
+  position: relative;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+#banner-image {
+  width: 100%;
+}
+#banner-title {
+  position: absolute;
+  left: 50%;
+  top: 82%;
+  transform: translate(-50%, -50%);
+}

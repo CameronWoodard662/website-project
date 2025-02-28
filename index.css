@@ -50,3 +50,19 @@ body {
   background-color: lightgrey;
   border-color: darkgrey;
 }
+#guide {
+  z-index: 10;
+  position: fixed;
+  bottom: 5%;
+  display: flex;
+  gap: 200px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.guide-command {
+  background-color: lightgrey;
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}

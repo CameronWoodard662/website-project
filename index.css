@@ -36,5 +36,17 @@ body {
   background-color: rgb(177, 34, 34);
 }
 #first-link {
-  color: yellow;
+  color: black;
+  background-color: grey;
+  padding: 5px;
+  text-decoration: none;
+}
+#first-link:hover {
+  background-color: red;
+}
+#menu {
+  position: absolute;
+  left: 90%;
+  background-color: lightgrey;
+  border-color: darkgrey;
 }

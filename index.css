@@ -44,11 +44,14 @@ body {
 #first-link:hover {
   background-color: red;
 }
-#menu {
+#menu-button {
   position: absolute;
-  left: 90%;
-  background-color: lightgrey;
+  left: 88%;
+  top: 5%;
+  background-color: rgb(210, 210, 210);
   border-color: darkgrey;
+  width: 90px;
+  font-size: larger;
 }
 #guide {
   z-index: 10;
@@ -65,4 +68,31 @@ body {
   padding: 5px;
   text-decoration: none;
   color: black;
+}
+.slide-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.slide-flex img {
+  width: 100%;
+}
+#menu-container {
+  flex-direction: column;
+  position: absolute;
+  left: 86%;
+  bottom: 70%;
+  border-color: darkgrey;
+  font-size: larger;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: flex;
+}
+#menu-container a {
+  border: solid 3px;
+  border-color: black;
+  background-color: grey;
+  color: offwhite;
 }

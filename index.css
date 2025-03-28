@@ -96,3 +96,7 @@ body {
   background-color: grey;
   color: offwhite;
 }
+
+.image-container {
+  padding: 50px;
+}

@@ -4,28 +4,36 @@
     <link rel="stylesheet" href="index.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Development Project</title>
   </head>
-  <body>
-    <div><button id="menu">Menu</button></div>
+  <body id="webpage">
+    <div><button class="slide-menus">Menu</button></div>
+    <div class="hidden" id="slide-links">
+      <a href="/slide-01.html">First Slide</a>
+      <a href="/slide-02.html">Second Slide</a>
+      <a href="/slide-03.html">Third</a>
+      <a href="/slide-04.html">Fourth</a>
+      <a href="/slide-05.html">Fifth</a>
+    </div>
     <div class="slide-flex image-container">
       <img src="/slide-images/slide-03-image.png" />
       <img src="/slide-images/coding-image-03.png" />
     </div>
-    <div>
-      <ul id="bullet-slide-02">
-        <li>One of the first editions of the webpage</li>
+    <div class="bullet-point">
+      <ul>
         <li>
-          mostly just the layout for what the webpage will end up looking like
+          Applied a color scheme using CSS, a "stylesheet" programming language
         </li>
+        <li>Looks much closer to the finished webpage</li>
+        <li>Still have not applied menu button</li>
       </ul>
     </div>
     <!-- never delete below section in new slides -->
     <div id="guide">
       <a href="/slide-02.html" class="guide-command">Previous</a>
       <a href="/index.html" class="guide-command">Back to Home Page</a>
-      <a href="#" class="guide-command">Next</a>
+      <a href="/slide-04.html" class="guide-command">Next</a>
     </div>
-    <script src="/index.js"></script>
+    <script src="/slides.js"></script>
   </body>
 </html>

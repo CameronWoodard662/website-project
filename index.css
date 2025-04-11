@@ -30,9 +30,9 @@ body {
 .box {
   aspect-ratio: 16 / 9;
   width: 60%;
-  border-radius: 7%;
+  border-radius: 15px;
 }
-#first {
+#webpage {
   background-color: rgb(177, 34, 34);
 }
 #first-link {
@@ -49,14 +49,23 @@ body {
   left: 88%;
   top: 5%;
   background-color: rgb(210, 210, 210);
+  border-color: black;
+  width: 90px;
+  font-size: larger;
+}
+.slide-menus {
+  left: 88%;
+  top: 5%;
+  background-color: rgb(210, 210, 210);
   border-color: darkgrey;
   width: 90px;
   font-size: larger;
+  margin: 10px;
 }
 #guide {
   z-index: 10;
   position: fixed;
-  bottom: 5%;
+  bottom: 3%;
   display: flex;
   gap: 200px;
   margin-top: 10px;
@@ -69,9 +78,14 @@ body {
   text-decoration: none;
   color: black;
 }
+/* slide-image container */
 .slide-flex {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: rgb(107, 104, 104);
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 80vw;
 }
 .slide-flex img {
   width: 100%;
@@ -80,9 +94,18 @@ body {
   flex-direction: column;
   position: absolute;
   left: 86%;
-  bottom: 70%;
+  bottom: 50%;
+  border-color: black;
+  font-size: larger;
+}
+#slide-links {
+  flex-direction: column;
+  position: absolute;
+  left: 70%;
+  bottom: 100;
   border-color: darkgrey;
   font-size: larger;
+  text-decoration: none;
 }
 .hidden {
   display: none;
@@ -91,12 +114,28 @@ body {
   display: flex;
 }
 #menu-container a {
+  border: solid 1px;
+  border-color: black;
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+#slide-links a {
   border: solid 3px;
   border-color: black;
   background-color: grey;
-  color: offwhite;
+  color: lightgray;
+  text-decoration: none;
 }
-
-.image-container {
-  padding: 50px;
+.bullet-point {
+  margin-top: 7px;
+  background-color: green;
+  border-radius: 15px;
+  text-align: start;
+  padding-right: 3px;
+}
+.bullet-point li {
+  padding-right: 13px;
+  margin-top: 10px;
 }

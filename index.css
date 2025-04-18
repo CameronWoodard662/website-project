@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #front-page-banner {
@@ -50,14 +51,16 @@ body {
   top: 5%;
   background-color: rgb(210, 210, 210);
   border-color: black;
-  width: 90px;
-  font-size: larger;
+  width: 96px;
+  height: 40px;
+  font-size: large;
 }
 .slide-menus {
-  left: 88%;
+  position: relative;
+  left: 630%;
   top: 5%;
   background-color: rgb(210, 210, 210);
-  border-color: darkgrey;
+  border-color: black;
   width: 90px;
   font-size: larger;
   margin: 10px;
@@ -82,7 +85,7 @@ body {
 .slide-flex {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(107, 104, 104);
+  background-color: rgb(180, 180, 180);
   padding: 10px;
   border-radius: 15px;
   max-width: 80vw;
@@ -93,7 +96,7 @@ body {
 #menu-container {
   flex-direction: column;
   position: absolute;
-  left: 86%;
+  left: 88%;
   bottom: 50%;
   border-color: black;
   font-size: larger;
@@ -101,8 +104,8 @@ body {
 #slide-links {
   flex-direction: column;
   position: absolute;
-  left: 70%;
-  bottom: 100;
+  left: 92.6%;
+  bottom: 60%;
   border-color: darkgrey;
   font-size: larger;
   text-decoration: none;
@@ -114,7 +117,7 @@ body {
   display: flex;
 }
 #menu-container a {
-  border: solid 1px;
+  border: solid 2px;
   border-color: black;
   background-color: lightgrey;
   color: black;
@@ -122,15 +125,16 @@ body {
   padding: 20px 20px;
 }
 #slide-links a {
-  border: solid 3px;
+  border: solid 2px;
+  background-color: rgb(210, 210, 210);
   border-color: black;
-  background-color: grey;
-  color: lightgray;
+  color: black;
   text-decoration: none;
+  padding: 15px;
 }
 .bullet-point {
-  margin-top: 7px;
-  background-color: green;
+  margin-top: 20px;
+  background-color: rgb(180, 180, 180);
   border-radius: 15px;
   text-align: start;
   padding-right: 3px;

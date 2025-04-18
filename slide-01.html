@@ -2,45 +2,41 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="index.javascript" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Development Project</title>
   </head>
-
-  <body>
-    <div><button id="menu-button">Menu</button></div>
-    <div class="hidden" id="menu-container">
-      <a href="slide-01.html">First Slide</a>
-      <a href="slide-02.html">Second Slide</a>
-      <a href="slide-03.html">Third</a>
-      <a href="slide-04.html">Fourth</a>
-      <a href="slide-05.html">Fifth</a>
+  <body id="webpage">
+    <div><button class="slide-menus">Menu</button></div>
+    <div class="hidden" id="slide-links">
+      <a href="slide-01.html">Page 1</a>
+      <a href="slide-02.html">Page 2</a>
+      <a href="slide-03.html">Page 3</a>
+      <a href="slide-04.html">Page 4</a>
+      <a href="slide-05.html">Page 5</a>
     </div>
-    <h1>welcome</h1>
-    <p>
-      This is the first "slide" for my website I am currently working on for my
-      internship.
-    </p>
-    <h2>Outline</h2>
-    <section></section>
-    <h3>Timeline</h3>
-    <img src="images/capybara.png" alt="this is capybara" height="100" />
-    <a
-      href="https://www.bing.com/ck/a?!&&p=ec84284d23165d8f36ccb3860ee21ce53f34a5e5a63889a0c7c8057998bae5faJmltdHM9MTczNzA3MjAwMA&ptn=3&ver=2&hsh=4&fclid=13ea038e-b8ca-6db3-061f-16efb9d86c77&psq=capybara+wikipedia&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ2FweWJhcmE&ntb=1"
-      target="_blank"
-      >capybara</a
-    >
-    <section>
-      <h3>Where I am</h3>
-      <img src="images/turtle.png" alt="this school turtle" height="100" />EECHS
-    </section>
-    <a href="index.html">Home Page</a>
+    <div class="slide-flex-02">
+      <img src="slide-images/slide-01-image.png" />
+    </div>
+    <div class="bullet-point">
+      <ul>
+        <li>The first webpage made in the first couple weeks of my project</li>
+        <li>
+          Originally planned for this to be foundation webpage that would be
+          built on
+        </li>
+        <li>Changed ideas early on so this has been mostly left alone</li>
+        <li>
+          Made using only HTML, which allows for images and text in the website
+        </li>
+      </ul>
+    </div>
+    <!-- never delete below section in new slides -->
     <div id="guide">
       <a href="index.html" class="guide-command">Previous</a>
       <a href="index.html" class="guide-command">Back to Home Page</a>
       <a href="slide-02.html" class="guide-command">Next</a>
     </div>
-    <script src="index.js"></script>
+    <script src="slides.js"></script>
   </body>
 </html>

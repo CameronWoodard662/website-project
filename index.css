@@ -27,20 +27,26 @@ body {
 #introductory-paragraph {
   color: rgb(252, 252, 252);
   background-color: rgb(0, 0, 0);
+  max-height: 300px;
 }
 .box {
   aspect-ratio: 16 / 9;
   width: 60%;
   border-radius: 15px;
+  margin: 7px;
 }
 #webpage {
   background-color: rgb(177, 34, 34);
 }
 #first-link {
   color: black;
-  background-color: grey;
+  background-color: lightgrey;
   padding: 5px;
   text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
 }
 #first-link:hover {
   background-color: red;
@@ -53,15 +59,16 @@ body {
   border-color: black;
   width: 96px;
   height: 40px;
-  font-size: large;
+  font-size: larger;
 }
 .slide-menus {
-  position: relative;
-  left: 630%;
-  top: 5%;
+  position: absolute;
+  left: 92%;
+  top: 4%;
   background-color: rgb(210, 210, 210);
   border-color: black;
-  width: 90px;
+  width: 96px;
+  height: 40px;
   font-size: larger;
   margin: 10px;
 }
@@ -97,15 +104,15 @@ body {
   flex-direction: column;
   position: absolute;
   left: 88%;
-  bottom: 35%;
+  bottom: 25%;
   border-color: black;
   font-size: larger;
 }
 #slide-links {
   flex-direction: column;
   position: absolute;
-  left: 92.6%;
-  bottom: 60%;
+  left: 93.05%;
+  bottom: 35%;
   border-color: darkgrey;
   font-size: larger;
   text-decoration: none;
@@ -139,7 +146,20 @@ body {
   text-align: start;
   padding-right: 3px;
 }
+.bullet-point-a {
+  margin-top: 20px;
+  position: absolute;
+  left: 21.8%;
+  border-radius: 15px;
+  text-align: start;
+  padding-right: 3px;
+}
 .bullet-point li {
   padding-right: 13px;
   margin-top: 10px;
+}
+.bullet-point-a li {
+  padding-right: 13px;
+  margin-top: 10px;
+  font-size: large;
 }

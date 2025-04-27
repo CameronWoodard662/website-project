@@ -157,9 +157,32 @@ body {
 .bullet-point li {
   padding-right: 13px;
   margin-top: 10px;
+  font-size: larger;
 }
 .bullet-point-a li {
   padding-right: 13px;
   margin-top: 10px;
   font-size: large;
+}
+
+.outro {
+  font-size: 6vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 17%;
+  left: 50%;
+}
+.outro-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: larger;
+}
+.box-a {
+  aspect-ratio: 16 / 9;
+  width: 45%;
+  border-radius: 15px;
+  margin: 7px;
 }
